@@ -1,7 +1,12 @@
 # Internet-in-omrezja
 Spletna stran in predstavitev na temo "Internet in omrežja"
+<br>
 
-Primoz Lah, 2025
-Univerza v Ljubljani, Pedagoška fakultela
-Dvopredmetni učitelj Matematika/računalništvo
-Mentorica: Alenka Žerovnik
+	Primož Lah, 2025
+
+	Univerza v Ljubljani, Pedagoška fakultela
+	Dvopredmetni učitelj Matematika/računalništvo
+	Mentorica: Alenka Žerovnik
+<br>
+
+	
