@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Internetni protokoli</title>
+    <link rel="stylesheet" type="text/css" href="CSS/stil.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" target="_self"
+        ><img
+          src="Slike/Index/InternetLogo.png"
+          width="80"
+          alt="Logo"
+          class="logo"
+      /></a>
+      <h1>Internet in omrežja</h1>
+
+      <nav>
+        <!-- Navigacijska vrstica -->
+        <ul class="nav">
+          <li class="nav"><a href="index.html" target="_self">Domov</a></li>
+          <li class="nav">
+            <a href="internet.html" target="_self">Internet</a>
+          </li>
+          <li class="nav">
+            <a href="internetni_protokoli.html" class="active" target="_self"
+              >Internetni protokoli</a
+            >
+          </li>
+          <li class="nav">
+            <a href="IP_naslovi.html" target="_self">IP naslovi</a>
+          </li>
+          <li class="nav">
+            <a href="viri.html" target="_self">Viri</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h3>Kaj je internetni protokol?</h3>
+
+        <p>
+          <!-- Definicija -->
+          v SSKJ pod geslom
+          <i
+            ><a
+              href="https://fran.si/iskanje?FilteredDictionaryIds=133&View=1&Query=protokol"
+              target="_blank"
+              >protokol</a
+            ></i
+          >
+          najdemo več različnih definicij. V tem primeru nas zanima 5.
+          definicija iz področja računalništva:<br />
+        </p>
+        <div class="sskj">
+          <p class="sskj-naslov">Protokol</p>
+
+          <p class="sskj-odstavek">
+            zbirka pravil za izmenjavo sporočil med elektronskimi napravami
+          </p>
+        </div>
+        <br />
+        <!-- Potrebno dodati stiliziranje (odstavek iz Fran SSKJ) -->
+
+        <p>
+          <!-- Obrazložitev in primer -->
+          Torej fraza <i>internetni protokol</i> predstavlja nekakšna navodila,
+          kako lahko poteka prenos datotek med napravami v omrežju. Če se vrnemo
+          na primer učilnice (kot videno v
+          <a href="internet.html" target="_self">opisu interneta</a>), si lahko
+          predstavljamo, da smo učitelju dali list z navodili, na katerem je
+          napisano, kako se lahko premika po učilnici, do kam ima dostop, kako
+          mora datoteko prevzeti in oddati, itd. Ta list z navodili predstavlja
+          internetni protokol.
+        </p>
+      </section>
+
+      <section>
+        <h3>Vrste internetnih protokolov</h3>
+
+        <div class="slika-in-navedba">
+          <img
+            src="Slike/Internetni_protokol/Data_Flow_of_the_Internet_Protocol_Suite.png"
+            alt="Shema toka informacij po internetnih protokolih"
+            class="tok-info"
+          />
+          <div>
+            <p class="navedba-protokol">
+              <a
+                href="https://commons.wikimedia.org/wiki/File:Data_Flow_of_the_Internet_Protocol_Suite.PNG"
+                >[[:File:TCP・IPの階層構造 (ルーター) .PNG#filelinks|]]:
+                renepickderivative work:
+                [[User:{{subst:renepick}}|{{subst:renepick}}]]</a
+              >,
+              <a href="http://creativecommons.org/licenses/by-sa/3.0/"
+                >CC BY-SA 3.0</a
+              >, <br />via Wikimedia Commons
+            </p>
+          </div>
+        </div>
+
+        <!-- https://commons.wikimedia.org/wiki/File:Data_Flow_of_the_Internet_Protocol_Suite.PNG -->
+
+        <p>
+          Poznamo različne vrste internetnih protokolov, ki jih lahko razdelimo
+          v 5 kategorij oziroma plasti:<br />
+        </p>
+
+        <!-- Tabela s protokoli, razdeljenimi v plasti -->
+        <table>
+          <!-- Potrebno dodati stil za tabelo -->
+          <tr>
+            <th>Plast</th>
+            <th>Protokoli</th>
+          </tr>
+          <tr>
+            <td>Aplikacijska plast</td>
+            <td>DNS, FTP, HTTP, IMAP, IRC, NNTP, POP3, SIP, SMTP, SSH</td>
+          </tr>
+          <tr>
+            <td>Transportna plast</td>
+            <td>DCCP, TCP, UDP, SCTP, RTP</td>
+          </tr>
+          <tr>
+            <td>Omrežna plast</td>
+            <td>IPv4, IPv6, ICMP, IGMP, ARP</td>
+          </tr>
+          <tr>
+            <td>Povezovalna plast</td>
+            <td>ECP, ATM, DDCMP, BSC, LAPB, LAPD, LLC, SDLC</td>
+          </tr>
+          <tr>
+            <td>Fizična plast</td>
+            <td>Token ring, Ethernet, FDDI, PPP, Wi-Fi</td>
+          </tr>
+        </table>
+        <!-- Konec tabele -->
+
+        <p>
+          <br />
+          Izmed teh nas najbolj zanimata <i><b>IPv4</b> ter <b>IPv6</b></i
+          >, saj sta najbolj poznana ter najbolj pogosto uporabljena. Bolj
+          natančno sta predstavljena na strani o
+          <a href="IP_naslovi.html" target="_self">IP naslovih</a>.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <!-- Oblika za licenco kopirana s strani https://chooser-beta.creativecommons.org/ -->
+      <p
+        xmlns:cc="http://creativecommons.org/ns#"
+        xmlns:dct="http://purl.org/dc/terms/"
+      >
+        <span property="dct:title"
+          >Spletna stran <i>Internet in omrežja</i></span
+        >, ustvaril <span property="cc:attributionName">Primož Lah</span> je
+        objavljena z licenco
+        <a
+          href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"
+          target="_blank"
+          rel="license noopener noreferrer"
+          style="display: inline-block"
+          >CC BY-SA 4.0<img
+            style="
+              height: 22px !important;
+              margin-left: 3px;
+              vertical-align: text-bottom;
+            "
+            src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+            alt="" /><img
+            style="
+              height: 22px !important;
+              margin-left: 3px;
+              vertical-align: text-bottom;
+            "
+            src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+            alt="" /><img
+            style="
+              height: 22px !important;
+              margin-left: 3px;
+              vertical-align: text-bottom;
+            "
+            src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"
+            alt=""
+        /></a>
+      </p>
+    </footer>
+  </body>
+</html>
